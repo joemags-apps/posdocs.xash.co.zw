@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <title>Xash - Docsify</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Xash - Comprehensive documentation for Xash, a powerful platform for bill payments across Africa.">
+    <meta
+      name="description"
+      content="Xash - Comprehensive documentation for Xash, a powerful platform for bill payments across Africa."
+    />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
@@ -23,9 +26,7 @@
   </head>
   <body>
     <div id="app">
-      <div align="center">
-        A moment...
-      </div>
+      <div align="center">A moment...</div>
     </div>
     <footer id="mb-footer"></footer>
     <script>
@@ -62,5 +63,18 @@
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
     <script src="https://unpkg.com/@markbattistella/docsify-sidebarfooter@latest"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var sidebarLinks = document.querySelectorAll(".sidebar-nav a");
+        sidebarLinks.forEach(function (link) {
+          link.addEventListener("click", function () {
+            var sidebar = document.querySelector(".app-sidebar");
+            if (sidebar.classList.contains("app-sidebar-open")) {
+              sidebar.classList.remove("app-sidebar-open");
+            }
+          });
+        });
+      });
+    </script>
   </body>
 </html>

@@ -2,10 +2,10 @@
 
 Welcome to the Point of Sale (POS) API documentation. This API provides endpoints for managing shops, employees, products, categories, and orders within a Point of Sale system.
 
-## [Authentication](/authentication.md)
+## [Authentication](/authentication)
 Details about how users can authenticate with the POS API.
 
-## [Shop](/shop.md)
+## [Shop](/shop)
 Information on how to manage shop-related information via the API.
 
 ## Category Management
