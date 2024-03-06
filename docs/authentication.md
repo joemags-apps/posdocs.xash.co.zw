@@ -62,9 +62,6 @@ To log in an existing user, send a `POST` request to `/api/login` with the user'
     "email": "shopowner1@gmail.com",
     "role": "shop_owner",
     "shop_id": 1,
-    "created_at": "
-
-```json
     "created_at": "2024-02-06T08:05:43.000000Z",
     "updated_at": "2024-02-06T08:53:24.000000Z"
   },
