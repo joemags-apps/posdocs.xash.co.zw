@@ -27,6 +27,7 @@ Bearer token required.
   "price": 24.99,
   "stock_quantity": 75,
   "description": "This is an updated product description.",
+  "sold_by": "weight",
   "SKU": "XYZ789",
   "Barcode": "987654321",
   "shop_id": 1
@@ -55,6 +56,7 @@ No parameters are needed in the query string as the product ID and updated detai
     "is_visible": true,
     "track_stock": true,
     "description": "This is an updated product description.",
+    "sold_by": "weight",
     "SKU": "XYZ789",
     "Barcode": "987654321",
     "shop_id": 1,

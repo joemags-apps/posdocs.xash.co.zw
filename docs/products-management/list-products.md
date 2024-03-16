@@ -39,6 +39,7 @@ No parameters.
       "updated_at": "2024-02-06T10:21:21.000000Z",
       "slug": null,
       "description": "Laptop HP",
+      "sold_by": "each",
       "SKU": null,
       "Barcode": null
     }

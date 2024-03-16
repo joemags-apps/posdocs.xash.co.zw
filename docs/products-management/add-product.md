@@ -27,6 +27,7 @@ Bearer token required.
   "price": 19.99,
   "stock_quantity": 100,
   "description": "This is an example product description.",
+  "sold_by": "each",
   "SKU": "ABC123",
   "Barcode": "123456789"
 }
@@ -65,6 +66,7 @@ Bearer token required.
     "price": 19.99,
     "stock_quantity": 100,
     "description": "This is an example product description.",
+    "sold_by": "each",
     "SKU": "ABC123",
     "Barcode": "123456789",
     "shop_id": 1,
